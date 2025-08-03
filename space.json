@@ -1,0 +1,23 @@
+{
+  "name": "RunBickersDAO",
+  "network": "base",
+  "symbol": "RBD",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0xDE70A50409B17d7F3ca2EFA9e9e52B11B139A4d3",
+        "symbol": "RBD",
+        "decimals": 18
+      }
+    }
+  ],
+  "admins": ["0xDE70A50409B17d7F3ca2EFA9e9e52B11B139A4d3"],
+  "members": ["0xDE70A50409B17d7F3ca2EFA9e9e52B11B139A4d3"],
+  "filters": {
+    "minScore": 0,
+    "onlyMembers": false
+  },
+  "plugins": {},
+  "about": "A running club DAO experimenting with Web3 governance."
+}
